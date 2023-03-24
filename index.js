@@ -39,8 +39,8 @@ app.get('/post', (req, res) => {
             "isMarred": false,
         },
         {
-            "name": "Abduraxmon",
-            "gender": "male",
+            "name": "Manzura",
+            "gender": "female",
             "isMarred": false,
         }
     ])
