@@ -8,7 +8,7 @@ const app = express()
 dotenv.config({
     path: "./data/config.env"
 })
-
+app.use(express.urlencoded({ extended: true }));
 app.use(cors())
 app.use(express.json())
 
